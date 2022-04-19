@@ -1,0 +1,22 @@
+var l = "aAbBcCdDeEfFgGhHiIjJkLlKmMnNoOpPqQrRsStTuUvVwWxXyYzZ";
+var s = "!@#$%";
+var n = "0123456789";
+onEvent("botaoGerarSenha", "click", function( ) {
+  var i = randomNumber(0, 51);
+  var j = randomNumber(0, 51);
+  var k = randomNumber(0, 51);
+  var x = randomNumber(0, 51);
+  var c = randomNumber(0, 51);
+  var m = randomNumber(0, 4);
+  var z = randomNumber(0, 9);
+  var b = randomNumber(0, 9);
+  var l1 = l.substring(i, i+1);
+  var l2 = l.substring(j, j+1);
+  var l3 = l.substring(k, k+1);
+  var l4 = l.substring(x, x+1);
+  var l5 = l.substring(c, c+1);
+  var si = s.substring(m, m+1);
+  var se = n.substring(b, b+1);
+  var num = n.substring(z, z+1);
+  setText("etiquetaSenha", (((((l1+si)+l3+num)+l2)+se)+l4) + l5);
+});
