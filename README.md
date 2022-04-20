@@ -4,6 +4,7 @@
 </p>
 <p align="center">
   Password creator application with 8 caratcere, consisting of 5 random letters (uppercase and lowercase), 2 random numbers and a symbol.
+  Project made with HTML, CSS and Javascript.
 </br>
 </br>
 Made with love 💙 by Louise Lalanne.</p>
